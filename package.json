@@ -1,0 +1,17 @@
+{
+  "name": "bitrix_tailwindcss",
+  "version": "1.0.0",
+  "description": "TailwindCSS for Bitrix Framework",
+  "main": "bundle.config.js",
+  "scripts": {
+    "build": "NODE_ENV=production tailwind build ./tailwind.inc.css -o ./src/tailwind.css  --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Burov",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
